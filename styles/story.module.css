@@ -1,0 +1,5 @@
+.story-grid {
+  /*  */
+  display: grid;
+  grid-template-rows: 200px auto;
+}
