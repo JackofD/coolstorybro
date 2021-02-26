@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
-import MainLayout from '../components/mainLayout';
-import Story from '../components/story/story';
+import MainLayout from '../components/MainLayout';
+import Story from '../components/story/Story';
 
 export default function Home(): JSX.Element {
   return (

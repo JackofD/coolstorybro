@@ -8,12 +8,18 @@ module.exports = {
     extend: {
       colors: {
         dark: {default: '#1b263b'},
-        light: {default: '#F7F9F8'}
-      }
+        light: {default: '#F7F9F8'},
+        primary: {default: '#2a9d8f'},
+      },
+      borderColor: theme => ({
+        ...theme('colors')
+      })
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      scale: ['active']
+    },
   },
   plugins: [],
 }
