@@ -7,13 +7,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        dark: {default: '#1b263b'},
+        dark2: {default: '#1a1a2e', dim: '#16213e', light: '#0f3460'},
+        dark: {default: '#1b263b', 'dim': '#424b63'},
         light: {default: '#F7F9F8'},
         primary: {default: '#2a9d8f'},
       },
       borderColor: theme => ({
         ...theme('colors')
-      })
+      }),
+      maxWidth: {
+        '8xl': '100rem'
+      }
     },
   },
   variants: {
