@@ -16,7 +16,10 @@ const Story: FC<storyProps> = (props) => {
   return <>
     <section id="story" className={`font-sans text-xl h-full max-h-full overflow-hidden ${props.className}`}>
       <div className="overflow-y-auto min-h-full p-8 flex flex-row gap-4 justify-evenly items-center text-center">
-        { hasStoryDetail ? <StoryDetail className="bg-dark2-dim p-4 rounded" /> : <Button onClick={generateStoryBro}>Generate</Button> }
+        { hasStoryDetail ?
+          <StoryDetail className="" /> :
+          <Button onClick={generateStoryBro}>Generate</Button>
+        }
       </div>
     </section>
   </>;
