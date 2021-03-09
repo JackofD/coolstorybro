@@ -8,17 +8,19 @@ type StoryDetailProps = {
 };
 
 const StoryDetail: FC<StoryDetailProps> = (props) => {
-  const {storyData: {theme, protagonist, setting, plotline}} = props;
+  const { storyData: { theme, characters, setting, plotline } } = props;
   return <>
     <section id="storyDetail" className={`flex flex-col gap-4 w-full max-w-7xl ${props.className}`}>
       <div className="story-block"><h3 className="text-2xl">Theme: {theme}</h3></div>
       <section className="contents lg:flex lg:flex-row gap-4 justify-evenly">
         <div className="story-block lg:w-1/2 ">
-          <h3 className="text-2xl mb-4">Characters</h3>
+          <h3 className="text-2xl mb-4">Characters:</h3>
           <ul>
             <li>
               <div>
-                <Character characterData={protagonist} />
+                {characters.map((char, index) => {
+                  return <Character characterData={char} key={index} charIndex={index} />
+                })}
               </div>
             </li>
           </ul>
