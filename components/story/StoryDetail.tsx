@@ -1,5 +1,5 @@
 import { FC } from 'react';
-import { CharacterData, StoryType } from '../../pieces/StoryType';
+import { StoryType } from '../../pieces/StoryType';
 import Character from '../Character';
 
 type StoryDetailProps = {
