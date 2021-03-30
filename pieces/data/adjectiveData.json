@@ -1,0 +1,38 @@
+{
+  "trait": [
+    "witty",
+    "grumpy",
+    "cheerful",
+    "selfish",
+    "generous",
+    "energetic",
+    "impressive",
+    "ardent",
+    "boorish",
+    "old-fashioned",
+    "flambouyant",
+    "reluctant",
+    "generous",
+    "wicked",
+    "unwilling",
+    "obliging",
+    "unobliging",
+    "helpful",
+    "busy"
+  ],
+  "descriptor": [
+    "old",
+    "young",
+    "short",
+    "tall",
+    "regular",
+    "stylish",
+    "haggard",
+    "strong",
+    "good looking",
+    "pretty",
+    "handsome",
+    "rugged",
+    "crazy-looking"
+  ]
+}

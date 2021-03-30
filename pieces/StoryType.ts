@@ -8,7 +8,7 @@ export type StoryType = {
 export type CharacterData = {
   initialDescriptor: string;
   secondaryDescriptor: string;
-  tertiaryDescriptor: string;
+  characterTwist: string;
   goal?: string;
 };
 
@@ -26,12 +26,12 @@ export const fakeStoryData: StoryType = {
     {
       initialDescriptor: 'A witty young man',
       secondaryDescriptor: 'with a zest for life',
-      tertiaryDescriptor: ', but is scared of talking to girls',
+      characterTwist: ', but is scared of talking to girls',
     },
     {
       initialDescriptor: 'A witty young man',
       secondaryDescriptor: 'with a zest for life',
-      tertiaryDescriptor: ', but is scared of talking to girls',
+      characterTwist: ', but is scared of talking to girls',
     }
   ],
   setting: { tempSetting: "A temporary setting for now. It's ancient and beautful" },
