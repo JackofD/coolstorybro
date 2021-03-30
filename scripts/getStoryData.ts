@@ -43,7 +43,6 @@ export const getInternalCharacterData = (): CharacterData[] => {
       goal: `` // TO DO
     }
 
-    console.log(characterObj);
     charArray.push(characterObj);
   }
 
