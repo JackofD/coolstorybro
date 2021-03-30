@@ -1,0 +1,27 @@
+{
+  "place": [
+    "city",
+    "lake",
+    "ruin",
+    "plain",
+    "forest",
+    "wood",
+    "desert",
+    "castle",
+    "building",
+    "house",
+    "river",
+    "tower"
+  ],
+  "location": [
+    "in the mountains",
+    "on a hill",
+    "in the distance",
+    "where people used to live",
+    "where people live",
+    "where animals used to live",
+    "where animals live",
+    "where creatures used to live",
+    "where creatures live"
+  ]
+}

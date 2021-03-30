@@ -47,16 +47,22 @@ export const getInternalCharacterData = (): CharacterData[] => {
   }
 
   return charArray;
-}
+};
+
 
 export const getInternalSettingData = () => {
+  // Get setting information from data source
 
-}
+  // Combile pieces into a setting object to pass on
+  
+};
 
 export const getInternalPlotData = () => {
 
-}
+};
 
+
+// Extra helpers
 export const getRandomItemInRange = (max: number): number => {
   return Math.floor(Math.random() * Math.floor(max))
 };
