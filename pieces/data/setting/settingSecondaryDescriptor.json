@@ -1,3 +1,14 @@
 {
-  
+  "localeStatus": [
+    "Life there is good",
+    "Silence dwells upon it",
+    "There is great opportunity",
+    "The hustle and bustle keeps things going"
+  ],
+  "localeNote": [
+    ", but things could be better",
+    ", but an evil lurks in the shadows",
+    ", but daily life gets in the way",
+    ", but it hides secrets"
+  ]
 }

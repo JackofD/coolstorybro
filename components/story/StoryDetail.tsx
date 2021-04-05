@@ -28,7 +28,7 @@ const StoryDetail: FC<StoryDetailProps> = (props) => {
         </div>
         <div className="story-block lg:w-1/2 ">
           <h3 className="text-2xl mb-4">Setting</h3>
-          <p>{setting.tempSetting}</p>
+          {/* <p>{setting.tempSetting}</p> */}
         </div>
       </section>
       <div className="story-block">
