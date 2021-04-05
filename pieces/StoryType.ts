@@ -13,7 +13,9 @@ export type CharacterData = {
 };
 
 export type SettingData = {
-  tempSetting: string;
+  settingInitial: string;
+  settingSecondary: string;
+  settingTidbit: string;
 };
 
 export type PlotlineData = {
@@ -34,6 +36,10 @@ export const fakeStoryData: StoryType = {
       characterTwist: ', but is scared of talking to girls',
     }
   ],
-  setting: { tempSetting: "A temporary setting for now. It's ancient and beautful" },
+  setting: { 
+    settingInitial: "in a city in the mountains",
+    settingSecondary: "Life there is good, but it could be better",
+    settingTidbit: "It is an important trade route"
+   },
   plotline: { tempPlot: 'The protagonists family was lost in the bermuda triangle during a plane heist. They embark on a journey to recover their loved ones. The first step is leaving their house.' },
 };

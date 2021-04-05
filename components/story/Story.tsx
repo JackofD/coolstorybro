@@ -2,7 +2,7 @@ import { FC, useState } from 'react';
 import Button from '../shared/Button';
 import StoryDetail from './StoryDetail';
 import { StoryType, } from '../../pieces/StoryType';
-import { getInternalCharacterData } from '../../scripts/getStoryData';
+import { getInternalCharacterData, getInternalSettingData } from '../../scripts/getStoryData';
 
 type storyProps = {
   className?: string;
@@ -11,7 +11,7 @@ type storyProps = {
 const emptyStory: StoryType = {
   theme: '',
   characters: [],
-  setting: { tempSetting: '' },
+  setting: { settingInitial: '', settingSecondary: '', settingTidbit: '' },
   plotline: { tempPlot: '' },
 }
 
@@ -28,7 +28,10 @@ const Story: FC<storyProps> = (props) => {
         ...randomData,
         characters: [
           ...getInternalCharacterData()
-        ]
+        ],
+        setting: {
+          ...getInternalSettingData()
+        },
       });
     // set the random data
     setHasStoryDetail(true);

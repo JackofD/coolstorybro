@@ -1,0 +1,33 @@
+{
+  "place": [
+    "in a city",
+    "near a lake",
+    "by a ruin",
+    "near a plain",
+    "in a forest",
+    "in a wood",
+    "in a desert",
+    "in a castle",
+    "in a building",
+    "in a house",
+    "by a river",
+    "in a tower",
+    "in a town",
+    "in a village"
+  ],
+  "location": [
+    "in the mountains",
+    "surrounded by mountains",
+    "in a valley",
+    "on a hill",
+    "in the distance",
+    "where people used to live",
+    "where people live",
+    "where animals used to live",
+    "where animals live",
+    "where creatures used to live",
+    "where creatures live",
+    "from the future",
+    "from the past"
+  ]
+}
