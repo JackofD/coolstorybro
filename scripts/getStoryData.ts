@@ -60,7 +60,7 @@ export const getInternalSettingData = (): SettingData => {
   const localePlace = SettingInitial.place[getRandomItemInRange(SettingInitial.place.length)];
   const localeLocation = SettingInitial.location[getRandomItemInRange(SettingInitial.location.length)];
 
-  const localeInfo = SettingSecondary.localeStatus[getRandomItemInRange(SettingSecondary.localeStatus.length)] + ' ' + SettingSecondary.localeNote[getRandomItemInRange(SettingSecondary.localeNote.length)];
+  const localeInfo = SettingSecondary.localeStatus[getRandomItemInRange(SettingSecondary.localeStatus.length)] + SettingSecondary.localeNote[getRandomItemInRange(SettingSecondary.localeNote.length)];
 
   const localeTidbit = SettingTidbit[getRandomItemInRange(SettingTidbit.length)];
 
